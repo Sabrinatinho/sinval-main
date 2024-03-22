@@ -1,0 +1,33 @@
+body {
+    background-color: black;
+}
+
+header {
+    text-align: center;
+    color: white;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.photos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+}
+
+.photos img {
+    width: calc(50% - 10px);
+    margin-bottom: 20px;
+
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    color: aliceblue;
+}
